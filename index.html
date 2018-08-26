@@ -8,6 +8,7 @@
         <!-- Fonts -->
 		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
         
         <!-- CSS -->
 		<link rel="stylesheet" type="text/css" href="style.css">
@@ -26,7 +27,7 @@
 	<body>
 		<div class = "featured_image">
 			<!-- Featured image -->
-            <a href="#about" class="js-hashlink"><img class="move_nav animated infinite pulse" src="caret-bottom.svg"></a>
+            <a href="#about" class="js-hashlink"><img class="move_nav animated infinite pulse" src="caret-bottom.svg" alt="upside down triangle acting as a link to the next section of the page"></a>
 		</div>
         
 		<div class = "description" id = "about">
@@ -35,20 +36,26 @@
 			<p id="why_hg"><a href="">Why Hypatia's Gang?</a></p>
 			<br>
 			<br>
-            <div class="social">
+            <div class="social"> <!--
                 <button onclick="window.open('https://www.instagram.com/sumspacezine/')" target="_blank" type="button" class="btn btn-1">Instagram</a></button>
                 <button onclick="window.open('https://twitter.com/sumspacezine')" target="_blank" type="button" class="btn btn-5">Twitter</a></button>
-                <button onclick="window.open('mailto:hypatiasgang@gmail.com')" target="_blank" type="button" class="btn btn-2">Email</a></button>
+                <button onclick="window.open('mailto:hypatiasgang@gmail.com')" target="_blank" type="button" class="btn btn-2">Email</a></button> -->
+                
+                <!-- Wireframe 'sketch' buttons -->
+                <a href="https://www.instagram.com/sumspacezine/"><span>Instagram</span></a>
+                <a href="https://twitter.com/sumspacezine"><span>Twitter</span></a>
+                <a href="mailto:hypatiasgang@gmail.com"><span>Email</span></a>
             </div>
             
-            <a href="#pod" class="js-hashlink"><img class="move_nav animated infinite pulse" src="open-iconic-master/svg/caret-bottom.svg"></a>
+            <a href="#pod" class="js-hashlink"><img class="move_nav animated infinite pulse" src="caret-bottom-2.svg" alt="upside down triangle acting as a link to the next section of the page"></a>
 		</div>
         
 		<div class = "podcast" id = "pod">
 			<h2>Curious About</h2>
 			<p>Curious About was a five-part podcast series about all the things you’re curious about. Each episode we explored a new topic relating to science, technology, engineering and maths.</p>
 			<p>We interviewed incredible BAME women doing fascinating work in their chosen topic area. We asked them about their journey and career so that by the end of the episode you should have been either be a little less curious or a little more!</p>
-			<a href="http://ca.sumspacezine.com" target="blank" id="shownotes"><button>Show notes</button></a>
+			<!--<a href="http://ca.sumspacezine.com" target="blank" id="shownotes"><button>Show notes</button></a>-->
+            <button onclick="window.open('http://ca.sumspacezine.com')" target="_blank" type="button" class="btn btn-6" id="shownotes">Show notes</a></button>
 
 			<!-- Put new epsode here --> 
 			<iframe width="80%" height="60" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&light=1&feed=%2Fcuriousabout%2Fbuilding-the-future%2F" frameborder="0" ></iframe>
